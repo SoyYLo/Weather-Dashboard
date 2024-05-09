@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid={API_KEY}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>🌥️Weather Dashboard🌥️</h1>
+    </header>
+    <section class="section">
+        <h2>Search for a City:</h2>
+        <h3>
+            <label for="name" class="City"></label>
+            <input type="text" class="City" placeholder="City Name">
+        </h3>
+        <button class="bttn">Search</button>
+    </section>
+    <article class="container">
+        <h4>Today</h4>
+
+    </article>
+    <article class="data">
+        <h4>5-Day Forecast</h4>
+        <ul class="weather-cards">
+            <li class="card">
+                <h5>(____)</h5>
+                <h6>Temp: ___</h6>
+                <h6>Wind: ___</h6>
+                <h6>Humidity: ___</h6>
+            </li>
+            <li class="card">
+                <h5>(____)</h5>
+                <h6>Temp: ___</h6>
+                <h6>Wind: ___</h6>
+                <h6>Humidity: ___</h6>
+            </li>
+            <li class="card">
+                <h5>(____)</h5>
+                <h6>Temp: ___</h6>
+                <h6>Wind: ___</h6>
+                <h6>Humidity: ___</h6>
+            </li>
+            <li class="card">
+                <h5>(____)</h5>
+                <h6>Temp: ___</h6>
+                <h6>Wind: ___</h6>
+                <h6>Humidity: ___</h6>
+            </li>
+            <li class="card">
+                <h5>(____)</h5>
+                <h6>Temp: ___</h6>
+                <h6>Wind: ___</h6>
+                <h6>Humidity: ___</h6>
+            </li>
+        
+            
+        </ul>
+    </article>
+
+
+
+<script src="./assets/js/script.js"></script>
+
+</body>
