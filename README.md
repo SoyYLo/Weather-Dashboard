@@ -16,10 +16,15 @@ When user inputs desired city
 Then the webpage will search given city using the weather API and it will return with information about the weather details about that city.
 There are 2 displays on the right hand side of the page where the user can view todays weather and the 5 day forecast for that specific city
 
-## Source Links
+## Source Link
 
 https://openweathermap.org/api
 
 ## Webpage Link
 
+https://soyylo.github.io/Weather-Dashboard/
+
 # Screenshot
+
+<img width="1449" alt="Screenshot 2024-05-11 at 1 26 31 PM" src="https://github.com/SoyYLo/Weather-Dashboard/assets/161881415/86cfdbc3-ae7c-4637-99f2-1a7fd227cfd2">
+
