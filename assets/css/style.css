@@ -48,6 +48,13 @@ button {
     border-color: black;
 }
 
+#today {
+    float: left;
+    margin-top: -30px;
+    font-size: 25px;
+}
+
+
 .data {
     float: right;
     margin-top: 75px;
